@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #7b4397, #dc2430);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.5s ease;
+}
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+}
+h2 {
+  margin-bottom: 1rem;
+}
+.otp-display {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  color: #333;
+}
+button {
+  background-color: #dc2430;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  margin: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+button:hover {
+  background-color: #a61a26;
+}
+.timer {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #666;
+}
+.copied-msg {
+  color: green;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
