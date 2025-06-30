@@ -21,6 +21,8 @@ Generates a 6-digit OTP, starts a countdown timer, and lets you copy the OTP to 
 
 otp-timer/
 ├── index.html        ← contains HTML only
+
 ├── styles.css        ← all styles moved here
+
 └── script.js         ← all JavaScript moved here
 
