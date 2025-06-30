@@ -18,6 +18,7 @@ Generates a 6-digit OTP, starts a countdown timer, and lets you copy the OTP to 
 
 ## 📂 Folder Structure
 
+
 otp-timer/
 ├── index.html
 ├── styles.css
